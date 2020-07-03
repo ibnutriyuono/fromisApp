@@ -1,2 +1,3 @@
 import LoginScreen from "./LoginScreen";
-export { LoginScreen };
+import RegisterScreen from "./RegisterScreen";
+export { LoginScreen, RegisterScreen };
