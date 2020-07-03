@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { color } from "./styles/Pallete";
+import { colors } from "./styles";
 
 export default class index extends Component {
   render() {
@@ -17,7 +17,7 @@ export default class index extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: color.lightBg,
+    backgroundColor: colors.lightBg,
     alignItems: "center",
     justifyContent: "center",
   },
