@@ -24,7 +24,9 @@ export default class LoginScreen extends Component {
           </View>
           <View style={styles.forgotPasswordContainer}>
             <Text style={styles.forgotPasswordText}>Forgot password ?</Text>
-            <Text style={styles.registerText}>Already have an account ?</Text>
+            <Text style={styles.registerText}>
+              Don't have an account ? Sign Up.
+            </Text>
           </View>
           <View style={styles.loginButtonContainer}>
             <Text style={styles.loginButtonText}>LOGIN</Text>
