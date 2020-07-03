@@ -4,9 +4,9 @@
     "slug": "fromisApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/fromisFavicon.png",
+    "icon": "./src/assets/icons/fromisFavicon.png",
     "splash": {
-      "image": "./assets/fromisLogo.png",
+      "image": "./src/assets/images/fromisLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#f2f0f5"
     },
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/fromisFavicon.png"
+      "favicon": "./src/assets/icons/fromisFavicon.png"
     }
   }
 }
