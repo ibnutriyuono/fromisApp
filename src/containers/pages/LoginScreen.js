@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
 import { colors, sizes } from "../../styles";
-import { TextInputEmail, TextInputPassword } from "../../components/atoms";
+import {
+  TextInputEmail,
+  TextInputPassword,
+  Button,
+} from "../../components/atoms";
 import { StatusBar } from "expo-status-bar";
 
 export default class LoginScreen extends Component {
@@ -28,9 +32,7 @@ export default class LoginScreen extends Component {
               Don't have an account ? Sign Up.
             </Text>
           </View>
-          <View style={styles.loginButtonContainer}>
-            <Text style={styles.loginButtonText}>LOGIN</Text>
-          </View>
+          <Button buttonText="LOGIN" />
         </View>
       </View>
     );
@@ -70,16 +72,5 @@ const styles = StyleSheet.create({
   registerText: {
     color: colors.purple,
     marginBottom: 10,
-  },
-  loginButtonContainer: {
-    backgroundColor: colors.lightHl,
-    margin: 10,
-    paddingVertical: 20,
-    borderRadius: 14,
-  },
-  loginButtonText: {
-    textAlign: "center",
-    color: "white",
-    fontWeight: "700",
   },
 });
