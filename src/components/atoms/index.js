@@ -1,4 +1,5 @@
 import TextInputPassword from "./TextInputPassword";
 import TextInputEmail from "./TextInputEmail";
+import Button from "./Button";
 
-export { TextInputEmail, TextInputPassword };
+export { TextInputEmail, TextInputPassword, Button };
